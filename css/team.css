@@ -41,5 +41,20 @@
   color: #2e2f42;
 }
 .team-description {
+  margin-bottom: 8px;
   text-align: center;
+}
+
+.team-social-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-social-item {
+}
+
+.team-social-item .social-link:hover,
+.team-social-item .social-link:focus {
+  background-color: #404bbf;
 }
